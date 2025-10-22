@@ -10,7 +10,7 @@ It provides valuable insights into how linear models can capture market trends i
 ## 📊 Dataset
 
 The dataset car data.csv contains real-world data of cars listed for resale.
-Each record includes vehicle specifications and their corresponding selling prices.
+Each record includes vehicle specifications and their corresponding selling prices. Link: https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho?select=car+details+v4.csv
 
 ### Key Features:
 
