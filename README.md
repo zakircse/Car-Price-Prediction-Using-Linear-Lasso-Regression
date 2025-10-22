@@ -76,9 +76,11 @@ Model: sklearn.linear_model.Lasso
 Comparison: Both models’ performances were evaluated to identify which provides better generalization.
 
 ## 📈 Model Evaluation
-Model	              R² (Train)	    R² (Test)	     Remarks
-Linear Regression	    ~0.96	          ~0.84	       High accuracy, slight overfitting
-Lasso Regression	    ~0.84	          ~0.82	       Slightly lower accuracy but better generalization
+After training both Linear Regression and Lasso Regression models, their performance was tested using the R² score.
+
+For the Linear Regression model, the R² score on the training data was around 0.96, and on the test data, it was around 0.84. This means the model fits the training data very well but may slightly overfit.
+
+For the Lasso Regression model, the R² score on the training data was around 0.84, and on the test data, it was around 0.82. The accuracy is slightly lower than Linear Regression, but the model is more stable and generalizes better.
 
 Both models accurately predict car prices, with Linear Regression performing slightly better in-sample, and Lasso offering better control of overfitting.
 
